@@ -15,6 +15,7 @@
 		5F1E4AF82A211F5F00138C41 /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E4AF72A211F5F00138C41 /* PersonsListViewController.swift */; };
 		5F1E4AFA2A21290E00138C41 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E4AF92A21290E00138C41 /* DataStore.swift */; };
 		5F1E4B012A2135E300138C41 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E4B002A2135E300138C41 /* Person.swift */; };
+		5F1E4B062A23D5D500138C41 /* DetailedInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E4B052A23D5D500138C41 /* DetailedInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5F1E4AF72A211F5F00138C41 /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
 		5F1E4AF92A21290E00138C41 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		5F1E4B002A2135E300138C41 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5F1E4B052A23D5D500138C41 /* DetailedInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				5F1E4AF72A211F5F00138C41 /* PersonsListViewController.swift */,
+				5F1E4B052A23D5D500138C41 /* DetailedInfoViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				5F1E4B012A2135E300138C41 /* Person.swift in Sources */,
 				5F1E4AE42A211D5100138C41 /* AppDelegate.swift in Sources */,
+				5F1E4B062A23D5D500138C41 /* DetailedInfoViewController.swift in Sources */,
 				5F1E4AFA2A21290E00138C41 /* DataStore.swift in Sources */,
 				5F1E4AF82A211F5F00138C41 /* PersonsListViewController.swift in Sources */,
 				5F1E4AE62A211D5100138C41 /* SceneDelegate.swift in Sources */,

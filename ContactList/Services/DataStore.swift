@@ -14,7 +14,7 @@ final class DataStore {
     
     let names: [String] =
     [
-        "Jhon",
+        "John",
         "Sara",
         "Richard",
         "Mira",
