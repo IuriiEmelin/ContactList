@@ -10,21 +10,15 @@ import UIKit
 final class PersonsListViewController: UITableViewController {
     
     private let contactList = Person.getPersonsList()
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        
-    }
-
+    
     // MARK: - Navigation
-
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
         guard let detailedInfoVC = segue.destination as? DetailedInfoViewController else { return }
         detailedInfoVC.person = contactList[indexPath.row]
     }
-
+    
 }
 
 // MARK: - UITableViewDataSource

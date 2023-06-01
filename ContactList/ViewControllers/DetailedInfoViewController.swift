@@ -17,7 +17,7 @@ final class DetailedInfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        phoneNumberLabel.text = person.phoneNumber
+        title = person.phoneNumber
         emailLabel.text = person.email
         navigationItem.title = person.fullName
     }
